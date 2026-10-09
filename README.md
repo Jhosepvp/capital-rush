@@ -4,6 +4,12 @@
 
 En una arena de ciencia ficción, sobrevive, recoge créditos y decide qué hacer con tu capital entre rondas: comprar mejoras, invertir o mantener una reserva. Cada decisión cambia los recursos con los que afrontarás el siguiente combate. Los conceptos financieros se exploran jugando, mediante consecuencias visibles.
 
+## Demo jugable
+
+**[Jugar Capital Rush en el navegador](https://shiny-dust-0d10.jhosepvargas20021.workers.dev/)**
+
+Puedes probar el juego directamente, sin instalar dependencias ni descargar el proyecto.
+
 ![Combate en la arena de Capital Rush](docs/screenshots/gameplay.jpg)
 
 ## Mecánicas y características
