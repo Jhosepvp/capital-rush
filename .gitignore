@@ -1,0 +1,52 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vite/
+.cache/
+
+# Environment and local credentials
+.env
+.env.*
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+credentials.json
+service-account*.json
+secrets*.json
+
+# Logs, temporary files and backups
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local deployment state
+.wrangler/
+.vercel/
+.netlify/
+
+# Personal notes and scratch work
+md.md
+work/

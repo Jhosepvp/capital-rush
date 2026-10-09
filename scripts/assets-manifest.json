@@ -1,0 +1,78 @@
+{
+  "_comment": "Explicit manual regions (x,y,width,height in source sheet pixels) for every non-character asset. Each region is intentionally generous — the actual crop is the alpha bounding box found INSIDE that region, not the region itself. Regions deliberately do not rely on a uniform grid or connected-components across the whole sheet, since items sit close together with overlapping glow halos.",
+
+  "projectiles": {
+    "sheet": "sheets/projectiles_pickups_sheet.png",
+    "outDir": "projectiles",
+    "exportScale": 0.3,
+    "items": [
+      { "name": "player_projectile", "x": 10, "y": 365, "width": 265, "height": 205, "padding": 8 },
+      { "name": "shooter_projectile", "x": 255, "y": 365, "width": 265, "height": 205, "padding": 8 },
+      { "name": "lancer_projectile", "x": 500, "y": 360, "width": 270, "height": 220, "padding": 8 },
+      { "name": "collector_orb", "x": 790, "y": 360, "width": 230, "height": 215, "padding": 8 },
+      { "name": "collector_shard", "x": 1000, "y": 355, "width": 254, "height": 225, "padding": 8 }
+    ]
+  },
+
+  "pickups": {
+    "sheet": "sheets/projectiles_pickups_sheet.png",
+    "outDir": "pickups",
+    "exportScale": 0.35,
+    "items": [
+      { "name": "credit_small", "x": 5, "y": 665, "width": 245, "height": 250, "padding": 6 },
+      { "name": "credit_large", "x": 235, "y": 595, "width": 280, "height": 340, "padding": 6 },
+      { "name": "health_pickup", "x": 500, "y": 650, "width": 280, "height": 310, "padding": 6 },
+      { "name": "insurance_pickup", "x": 765, "y": 650, "width": 265, "height": 310, "padding": 6 },
+      { "name": "buff_pickup", "x": 1000, "y": 650, "width": 254, "height": 310, "padding": 6 }
+    ]
+  },
+
+  "props": {
+    "sheet": "sheets/props_obstacles_sheet.png",
+    "outDir": "props",
+    "exportScale": 0.42,
+    "items": [
+      { "name": "cash_crate", "x": 20, "y": 15, "width": 290, "height": 280, "padding": 6 },
+      { "name": "cash_crate_destroyed", "x": 300, "y": 15, "width": 330, "height": 300, "padding": 6 },
+      { "name": "reinforced_crate_red", "x": 640, "y": 40, "width": 310, "height": 275, "padding": 6 },
+      { "name": "reinforced_crate_gold", "x": 955, "y": 40, "width": 290, "height": 275, "padding": 6 },
+
+      { "name": "barrier_cyan", "x": 15, "y": 385, "width": 325, "height": 230, "padding": 6 },
+      { "name": "barrier_magenta", "x": 340, "y": 385, "width": 330, "height": 240, "padding": 6 },
+      { "name": "energy_generator", "x": 690, "y": 380, "width": 255, "height": 250, "padding": 6 },
+      { "name": "energy_barrier", "x": 910, "y": 380, "width": 340, "height": 270, "padding": 6 },
+
+      { "name": "terminal_cyan", "x": 20, "y": 645, "width": 255, "height": 300, "padding": 6 },
+      { "name": "terminal_red", "x": 270, "y": 645, "width": 255, "height": 300, "padding": 6 },
+      { "name": "cargo_container", "x": 615, "y": 650, "width": 630, "height": 300, "padding": 6 },
+
+      { "name": "debris_crate", "x": 15, "y": 980, "width": 300, "height": 235, "padding": 6 },
+      { "name": "debris_crate_destroyed", "x": 325, "y": 980, "width": 330, "height": 235, "padding": 6 },
+      { "name": "pylon_cyan", "x": 790, "y": 985, "width": 200, "height": 230, "padding": 6 },
+      { "name": "pylon_red", "x": 990, "y": 985, "width": 260, "height": 230, "padding": 6 }
+    ]
+  },
+
+  "vfx": {
+    "sheet": "sheets/combat_vfx_sheet.png",
+    "outDir": "vfx",
+    "exportScale": 0.42,
+    "items": [
+      { "name": "muzzle_player", "x": 0, "y": 15, "width": 305, "height": 275, "padding": 6 },
+      { "name": "muzzle_shooter", "x": 300, "y": 80, "width": 305, "height": 165, "padding": 6 },
+      { "name": "muzzle_lancer", "x": 600, "y": 50, "width": 305, "height": 245, "padding": 6 },
+      { "name": "muzzle_collector", "x": 895, "y": 15, "width": 359, "height": 290, "padding": 6 },
+
+      { "name": "hit_red", "x": 10, "y": 330, "width": 275, "height": 290, "padding": 6 },
+      { "name": "hit_cyan", "x": 290, "y": 345, "width": 275, "height": 280, "padding": 6 },
+      { "name": "hit_magenta", "x": 560, "y": 330, "width": 365, "height": 300, "padding": 6 },
+      { "name": "enemy_death", "x": 920, "y": 350, "width": 334, "height": 285, "padding": 6 },
+
+      { "name": "explosion_small", "x": 0, "y": 625, "width": 395, "height": 280, "padding": 6 },
+      { "name": "credit_pickup_fx", "x": 455, "y": 645, "width": 320, "height": 220, "padding": 6 },
+      { "name": "health_pickup_fx", "x": 865, "y": 645, "width": 340, "height": 260, "padding": 6 },
+
+      { "name": "boss_phase_ring", "x": 5, "y": 905, "width": 1245, "height": 300, "padding": 6 }
+    ]
+  }
+}

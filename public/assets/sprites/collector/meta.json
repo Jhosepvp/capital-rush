@@ -1,0 +1,25 @@
+{
+  "canvasWidth": 235,
+  "canvasHeight": 240,
+  "anchorX": 123,
+  "anchorY": 211,
+  "targetDisplayHeight": 120,
+  "frames": [
+    "down_idle",
+    "down_walk_1",
+    "down_walk_2",
+    "down_attack",
+    "up_idle",
+    "up_walk_1",
+    "up_walk_2",
+    "up_attack",
+    "left_idle",
+    "left_walk_1",
+    "left_walk_2",
+    "left_attack",
+    "right_idle",
+    "right_walk_1",
+    "right_walk_2",
+    "right_attack"
+  ]
+}
